@@ -6,24 +6,27 @@ This repository serves as a reference for setting up a context generation system
 
 The main components of this setup are:
 
-1. `docs/share_files.sh`: A bash script that generates the context file
+1. `.cursorcontext.sh`: A bash script that generates the context file
 2. `.cursorrules`: A configuration file for custom rules and patterns
 3. `package.json`: Contains npm scripts for easy execution
 
 ## How It Works
 
-The `share_files.sh` script:
+The `.cursorcontext.sh` script:
 
 1. Creates a single output file (`x.md`) in the `docs` directory
-2. Includes the contents of `.cursorrules` at the top of the file
-3. Adds the contents of all relevant project files
-4. Optionally includes logs (test, lint, coverage) if they exist
+2. Generates a project structure tree
+3. Includes debug information and important file paths
+4. Adds the contents of `.cursorrules`
+5. Incorporates log files (build, test, lint, coverage) if they exist
+6. Includes the contents of `package.json`
+7. Adds the contents of all relevant source and test files
 
 The generated `x.md` file can then be used to provide comprehensive context to Cursor AI IDE.
 
 ## Customization
 
-- Modify `share_files.sh` to include or exclude specific directories or file types
+- Modify `.cursorcontext.sh` to include or exclude specific directories or file types
 - Adjust `.cursorrules` to add custom rules and patterns for your project
 - Update `package.json` scripts as needed for your workflow
 
@@ -31,15 +34,31 @@ The generated `x.md` file can then be used to provide comprehensive context to C
 
 To use this setup in your own project:
 
-1. Copy `docs/share_files.sh`, `.cursorrules`, and the relevant `package.json` scripts to your project
-2. Customize the files as needed
+1. Copy `.cursorcontext.sh`, `.cursorrules`, and the relevant `package.json` scripts to your project
+2. Customize the variables at the top of `.cursorcontext.sh` as needed
 3. Run the context generation script using:
 
    ```bash
    npm run share-files
    ```
 
-4. Use the generated `x.md` file with Cursor AI IDE
+4. Use the generated `docs/x.md` file with Cursor AI IDE
+
+## package.json Scripts
+
+The `package.json` file includes the following scripts:
+
+```json
+{
+  "scripts": {
+    "share-files": "bash .cursorcontext.sh",
+    "test-and-share": "npm run test"
+  }
+}
+```
+
+- `npm run share-files`: Runs the context generation script
+- `npm run test-and-share`: Runs tests (if configured) and then generates the context
 
 ## Note
 
