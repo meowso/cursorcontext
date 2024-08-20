@@ -1,0 +1,60 @@
+[2K[0/1] Planning build[2K[1/1] Planning build[2K[2K[1/1] Compiling plugin SwiftFormatPlugin[2KBuilding for debugging...
+[2K[1/2] Compiling plugin SwiftFormatPlugin[2K[1/3] Compiling plugin SwiftFormatPlugin[2K[1/4] Compiling plugin SwiftFormatPlugin[2K[1/5] Compiling plugin SwiftFormatPlugin[2K[1/6] Compiling plugin SwiftFormatPlugin[2K[1/7] Compiling plugin SwiftFormatPlugin[2K[1/8] Compiling plugin SwiftFormatPlugin[2K[1/7] Compiling plugin SwiftFormatPlugin[2K[1/8] Compiling plugin SwiftFormatPlugin[2K[1/7] Compiling plugin SwiftFormatPlugin[2K[1/8] Compiling plugin SwiftFormatPlugin[2K[1/8] Write sources[2K[2/8] Write sources[2K[2/8] Write swift-version--58304C5D6DBC2206.txt[2K[3/8] Write swift-version--58304C5D6DBC2206.txt[2K[3/9] Write swift-version--58304C5D6DBC2206.txt[2K[3/10] Write swift-version--58304C5D6DBC2206.txt[2K[3/11] Write swift-version--58304C5D6DBC2206.txt[2K[3/12] Write swift-version--58304C5D6DBC2206.txt[2K[3/13] Write swift-version--58304C5D6DBC2206.txt[2K[3/14] Write swift-version--58304C5D6DBC2206.txt[2K[3/15] Write swift-version--58304C5D6DBC2206.txt[2K[4/15] Compiling AutoHotkeyMac main.swift[2K[5/15] Compiling AutoHotkeyMac resource_bundle_accessor.swift[2K[6/15] Emitting module AutoHotkeyMac[2K[7/15] Compiling AutoHotkeyMac StatusBarController.swift[2K[8/15] Compiling AutoHotkeyMac LogMessage.swift[2K[9/15] Compiling AutoHotkeyMac Configurations.swift[2K[10/15] Compiling AutoHotkeyMac AppDelegate.swift[2K[10/15] Write Objects.LinkFileList[2K[11/15] Write Objects.LinkFileList[2K[11/15] Linking AutoHotkeyMac[2K[12/15] Linking AutoHotkeyMac[2K[12/16] Linking AutoHotkeyMac[2K[12/15] Linking AutoHotkeyMac[2K[12/15] Applying AutoHotkeyMac[2K[13/15] Applying AutoHotkeyMac[2K[13/16] Applying AutoHotkeyMac[2K[13/17] Applying AutoHotkeyMac[2K[13/18] Applying AutoHotkeyMac[2K[13/19] Applying AutoHotkeyMac[2K[13/20] Applying AutoHotkeyMac[2K[13/21] Applying AutoHotkeyMac[2K[13/22] Applying AutoHotkeyMac[2K[14/22] Compiling AutoHotkeyMacTests TestHelpers.swift[2K[15/22] Compiling AutoHotkeyMacTests MainTests.swift[2K[16/22] Compiling AutoHotkeyMacTests ConfigurationsTests.swift[2K[17/22] Compiling AutoHotkeyMacTests AppDelegateTests.swift[2K[18/22] Compiling AutoHotkeyMacTests LogMessageTests.swift[2K[19/22] Emitting module AutoHotkeyMacTests[2K[20/22] Compiling AutoHotkeyMacTests StatusBarControllerTests.swift[2K[20/22] Write Objects.LinkFileList[2K[21/22] Write Objects.LinkFileList[2K[21/22] Linking AutoHotkeyMacPackageTests[2K[22/22] Linking AutoHotkeyMacPackageTests
+[2KBuild complete! (5.85s)
+Test Suite 'All tests' started at 2024-08-18 21:15:09.314.
+Test Suite 'AutoHotkeyMacPackageTests.xctest' started at 2024-08-18 21:15:09.316.
+Test Suite 'AppDelegateTests' started at 2024-08-18 21:15:09.316.
+Test Case '-[AutoHotkeyMacTests.AppDelegateTests testApplicationDidFinishLaunching]' started.
+Test Case '-[AutoHotkeyMacTests.AppDelegateTests testApplicationDidFinishLaunching]' passed (0.106 seconds).
+Test Case '-[AutoHotkeyMacTests.AppDelegateTests testApplicationWillTerminate]' started.
+Test Case '-[AutoHotkeyMacTests.AppDelegateTests testApplicationWillTerminate]' passed (0.104 seconds).
+Test Suite 'AppDelegateTests' passed at 2024-08-18 21:15:09.526.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.210 (0.210) seconds
+Test Suite 'ConfigurationsTests' started at 2024-08-18 21:15:09.526.
+Test Case '-[AutoHotkeyMacTests.ConfigurationsTests testConfigurations]' started.
+Test Case '-[AutoHotkeyMacTests.ConfigurationsTests testConfigurations]' passed (0.000 seconds).
+Test Case '-[AutoHotkeyMacTests.ConfigurationsTests testConfigurationsToggle]' started.
+Test Case '-[AutoHotkeyMacTests.ConfigurationsTests testConfigurationsToggle]' passed (0.000 seconds).
+Test Suite 'ConfigurationsTests' passed at 2024-08-18 21:15:09.526.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+Test Suite 'LogMessageTests' started at 2024-08-18 21:15:09.526.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testAppendToURL]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testAppendToURL]' passed (0.002 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testAppendToURLWithInvalidString]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testAppendToURLWithInvalidString]' passed (0.001 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testClearLogs]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testClearLogs]' passed (0.001 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testClearLogsWhenDisabled]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testClearLogsWhenDisabled]' passed (0.001 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testClearLogsWithInvalidPath]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testClearLogsWithInvalidPath]' passed (0.002 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testClearLogsWithWriteError]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testClearLogsWithWriteError]' passed (0.003 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testCreateDirectoryIfNeeded]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testCreateDirectoryIfNeeded]' passed (0.002 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testCreateDirectoryIfNeededWithExistingDirectory]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testCreateDirectoryIfNeededWithExistingDirectory]' passed (0.001 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testCreateDirectoryIfNeededWithFileExistsError]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testCreateDirectoryIfNeededWithFileExistsError]' passed (0.001 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testCreateDirectoryIfNeededWithPermissionError]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testCreateDirectoryIfNeededWithPermissionError]' passed (0.001 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testDataAppend]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testDataAppend]' passed (0.001 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testDataAppendWithEmptyData]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testDataAppendWithEmptyData]' passed (0.001 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testDataAppendWithFileHandleFailure]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testDataAppendWithFileHandleFailure]' passed (0.001 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testLogMessage]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testLogMessage]' passed (0.001 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testLogMessageWhenDisabled]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testLogMessageWhenDisabled]' passed (0.000 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testLogMessageWithInvalidPath]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testLogMessageWithInvalidPath]' passed (0.000 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testLogMessageWithNonUTF8String]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testLogMessageWithNonUTF8String]' passed (0.001 seconds).
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testLogMessageWithWriteError]' started.
+Test Case '-[AutoHotkeyMacTests.LogMessageTests testLogMessageWithWriteError]' passed (0.001 seconds).
+Test Suite 'LogMessageTests' passed at 2024-08-18 21:15:09.547.
+	 Executed 18 tests, with 0 failures (0 unexpected) in 0.020 (0.021) seconds
+Test Suite 'MainTests' started at 2024-08-18 21:15:09.547.
+Test Case '-[AutoHotkeyMacTests.MainTests testMain]' started.

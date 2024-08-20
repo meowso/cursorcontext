@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "share-files": "bash .cursorcontext.sh",
+    "test-and-share": "npm run test"
+  }
+}

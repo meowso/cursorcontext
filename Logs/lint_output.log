@@ -1,0 +1,24 @@
+Linting Swift files in current working directory
+Linting 'StatusBarController.swift' (1/11)
+Linting 'LogMessage.swift' (3/11)
+Linting 'Configurations.swift' (2/11)
+Linting 'AppDelegate.swift' (4/11)
+Linting 'main.swift' (5/11)
+Linting 'AppDelegateTests.swift' (6/11)
+Linting 'MainTests.swift' (7/11)
+Linting 'LogMessageTests.swift' (8/11)
+Linting 'ConfigurationsTests.swift' (9/11)
+Linting 'TestHelpers.swift' (10/11)
+Linting 'StatusBarControllerTests.swift' (11/11)
+[
+  {
+    "character" : 8,
+    "file" : "/Users/bruno.palma/_/dev/AutoHotkeyMac/Sources/AutoHotkeyMac/main.swift",
+    "line" : 28,
+    "reason" : "public declarations should be documented",
+    "rule_id" : "missing_docs",
+    "severity" : "Warning",
+    "type" : "Missing Docs"
+  }
+]
+Done linting! Found 1 violation, 0 serious in 11 files.

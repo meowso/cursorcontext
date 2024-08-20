@@ -1,0 +1,17 @@
+[1/1] Compiling plugin SwiftFormatPlugin
+Building for debugging...
+[1/8] Copying autohotkeymac.sh
+[2/8] Write sources
+[2/8] Write AutoHotkeyMac-entitlement.plist
+[4/8] Write swift-version--58304C5D6DBC2206.txt
+[6/15] Compiling AutoHotkeyMac resource_bundle_accessor.swift
+[7/15] Compiling AutoHotkeyMac LogMessage.swift
+[8/15] Compiling AutoHotkeyMac main.swift
+[9/15] Compiling AutoHotkeyMac StatusBarController.swift
+[10/15] Compiling AutoHotkeyMac Configurations.swift
+[11/15] Emitting module AutoHotkeyMac
+[12/15] Compiling AutoHotkeyMac AppDelegate.swift
+[12/15] Write Objects.LinkFileList
+[13/15] Linking AutoHotkeyMac
+[14/15] Applying AutoHotkeyMac
+Build complete! (6.19s)
