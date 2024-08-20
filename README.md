@@ -28,7 +28,7 @@ The generated `x.md` file can then be used to provide comprehensive context to C
 
 The `.cursorrules` file contains a set of rules that guide the behavior of the AI assistant. These rules help maintain consistency and avoid common pitfalls in AI-assisted development.
 
-![Cursor Rules](.cursorrules.png)
+![Cursor Rules](imgs/.cursorrules.png)
 
 The rules cover various aspects such as:
 
@@ -44,7 +44,7 @@ These rules ensure that the AI assistant provides helpful and accurate assistanc
 
 The `package.json` file includes scripts that make it easy to run the context generation process:
 
-![NPM Scripts](npm_scripts.png)
+![NPM Scripts](imgs/npm_scripts.png)
 
 - `npm run share-files`: Runs the `.cursorcontext.sh` script to generate the context file
 - `npm run test-and-share`: Runs tests (if configured) and then generates the context
