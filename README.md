@@ -24,6 +24,33 @@ The `.cursorcontext.sh` script:
 
 The generated `x.md` file can then be used to provide comprehensive context to Cursor AI IDE.
 
+## Cursor Rules
+
+The `.cursorrules` file contains a set of rules that guide the behavior of the AI assistant. These rules help maintain consistency and avoid common pitfalls in AI-assisted development.
+
+![Cursor Rules](.cursorrules.png)
+
+The rules cover various aspects such as:
+
+- Verifying information
+- Making file-by-file changes
+- Avoiding unnecessary apologies or confirmations
+- Preserving existing code structures
+- Providing concise and relevant responses
+
+These rules ensure that the AI assistant provides helpful and accurate assistance while respecting the project's existing structure and the developer's intentions.
+
+## NPM Scripts
+
+The `package.json` file includes scripts that make it easy to run the context generation process:
+
+![NPM Scripts](npm_scripts.png)
+
+- `npm run share-files`: Runs the `.cursorcontext.sh` script to generate the context file
+- `npm run test-and-share`: Runs tests (if configured) and then generates the context
+
+These scripts simplify the process of generating and updating the context file, making it easier to keep your AI assistant up-to-date with your project's latest state.
+
 ## Customization
 
 - Modify `.cursorcontext.sh` to include or exclude specific directories or file types
@@ -43,22 +70,6 @@ To use this setup in your own project:
    ```
 
 4. Use the generated `docs/x.md` file with Cursor AI IDE
-
-## package.json Scripts
-
-The `package.json` file includes the following scripts:
-
-```json
-{
-  "scripts": {
-    "share-files": "bash .cursorcontext.sh",
-    "test-and-share": "npm run test"
-  }
-}
-```
-
-- `npm run share-files`: Runs the context generation script
-- `npm run test-and-share`: Runs tests (if configured) and then generates the context
 
 ## Note
 
